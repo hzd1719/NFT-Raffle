@@ -1,6 +1,6 @@
 # Task: NFT Lottery
 
-You have to create a NFT Lottery on a Sepolia test netowrk.
+You have to create a NFT Lottery on a Sepolia test network.
 Users should be able to buy a ticket which is an actual NFT. The funds from each ticket purchase are gathered in a prize pool. After a certain period of time a random winner should be chosen. We also want to be able to update our NFT tickets in the future.
 
 ### Contracts:
@@ -23,7 +23,7 @@ Users should be able to buy a ticket which is an actual NFT. The funds from each
     * **Bonus** * The proxy deployment can be achieved using create2.
 
 ### Environment
-* The written contracts should be deployed on a Sepolia testnetowrk environment.
+* The written contracts should be deployed on a Sepolia test network environment.
 * A sample purchases should be acomplished.
 * For the purpose of the task a surprise winner should be selected before the time ends, collecting 50% of the gathered funds. At the end of the time another winner will collect all gathered funds left.
 * **Bonus** * Write simple tests verifying the deployment and the lottery winner.
